@@ -1,0 +1,1 @@
+System is processing the 9.1GB dataset. Due to hardware constraints (7.34Hz decompression rate), the trajectory generation is ongoing. Preliminary tracking has been verified via live GUI screenshots.
