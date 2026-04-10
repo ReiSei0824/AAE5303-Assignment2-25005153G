@@ -1,0 +1,51 @@
+%YAML:1.0
+
+#--------------------------------------------------------------------------------------------
+# Camera Calibration Settings
+#--------------------------------------------------------------------------------------------
+Camera.type: "PinHole"
+
+# Camera calibration parameters (Adapted for HKairport dataset)
+Camera.fx: 562.1  # 根据数据集内参微调
+Camera.fy: 561.3
+Camera.cx: 318.5
+Camera.cy: 236.1
+
+# Distortion coefficients
+Camera.k1: -0.05
+Camera.k2: 0.01
+Camera.p1: 0.0
+Camera.p2: 0.0
+
+# Camera resolution
+Camera.width: 640
+Camera.height: 480
+
+# Camera frames per second 
+Camera.fps: 20.0
+
+# Color order of the images (0: BGR, 1: RGB. RGB is standard for this dataset)
+Camera.RGB: 1
+
+#--------------------------------------------------------------------------------------------
+# ORB Parameters
+#--------------------------------------------------------------------------------------------
+ORBextractor.nFeatures: 1000
+ORBextractor.scaleFactor: 1.2
+ORBextractor.nLevels: 8
+ORBextractor.iniThFAST: 20
+ORBextractor.minThFAST: 7
+
+#--------------------------------------------------------------------------------------------
+# Viewer Parameters
+#--------------------------------------------------------------------------------------------
+Viewer.KeyFrameSize: 0.05
+Viewer.KeyFrameLineWidth: 1.0
+Viewer.GraphLineWidth: 0.9
+Viewer.PointSize: 2.0
+Viewer.CameraSize: 0.08
+Viewer.CameraLineWidth: 3.0
+Viewer.ViewpointX: 0.0
+Viewer.ViewpointY: -0.7
+Viewer.ViewpointZ: -1.8
+Viewer.ViewpointF: 500.0
